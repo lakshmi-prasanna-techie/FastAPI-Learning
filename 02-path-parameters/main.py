@@ -6,7 +6,7 @@ app = FastAPI()
 @app.get("/")
 def home():
     return {
-        "message": "Welcome to Lakshmi's Mini Shop! 🛍️"
+        "message": "Welcome to Lakshmi's Mini Shop! "
     }
 
 @app.get("/products/{product_id}")
